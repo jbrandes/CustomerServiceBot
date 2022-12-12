@@ -15,7 +15,7 @@ def choice():
 #A breakdown of each region for the sales rep           
 def region():
     Location = input("What state are you located in " + Name + "? ")
-    West = ("CA", "AZ", "NV", "OR", "ID", "UT", "MT", "WY", "CO")
+    West = ("CA", "AZ", "NV", "OR", "ID", "UT", "MT", "WY", "CO", "WA")
     South = ("NM", "TX", "OK", "AR", "LA")
     East = ("MS", "AL", "FL", "TN", "SC", "GA", "NC", "WV","VA","PA", "NY", "VT", "ME", "NH", "MA", "RI")
     Midwest = ("IL", "WI", "IA", "KS", "NE", "SD", "ND", )
@@ -26,10 +26,10 @@ def region():
     if Location in East:
         print("Your sales rep is Paul Morrison. He can be reached at pmorrison@lselectricamerica.com.")
     if Location in Midwest:
-        print("Your sale rep is David Waite. He can be reached at (847) 521-8700")
+        print("Your sales rep is David Waite. He can be reached at (847) 521-8700")
     
 
 while True:
-    X = input("It is nice to meet you today " + Name +  " what can I help you find? Press which category you would like to navigate to: 1 - Tech Support 2 - Find a Product 3 - Sales ")
+    X = input("It is nice to meet you today " + Name +  " what can I help you find? Press which category you would like to navigate to: 1 - Tech Support 2 - Find a Product 3 - Sales " + ".\n")
     choice()
     exit()
