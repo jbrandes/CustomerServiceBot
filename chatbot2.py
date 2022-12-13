@@ -1,6 +1,13 @@
+import random
+import secrets
 
+#a greeting is chosen at random to make it seem more real
+Greetings = ["Welcome to LS Electric", "Greetings from LS Electric", "Welcome to LS Electric Customer Service", "Welcome to LS Electric, we are happy you are here.", "Welcome to the home page."]
+print (secrets.choice(Greetings))
 
-Name = input("Thank you for visiting the LS Electric home page. What is your name? ")
+             
+             
+Name = input("What is your name? ")
 
 #To help the user navigate our site
 def choice():
